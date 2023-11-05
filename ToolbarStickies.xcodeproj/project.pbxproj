@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFFE13032AF780130053A9DF /* ToolbarStickiesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFE13022AF780130053A9DF /* ToolbarStickiesApp.swift */; };
+		FFFE13052AF780130053A9DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFE13042AF780130053A9DF /* ContentView.swift */; };
+		FFFE13072AF780130053A9DF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFE13062AF780130053A9DF /* Item.swift */; };
+		FFFE13092AF780140053A9DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFFE13082AF780140053A9DF /* Assets.xcassets */; };
+		FFFE130C2AF780140053A9DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFFE130B2AF780140053A9DF /* Preview Assets.xcassets */; };
+		FFFE13172AF780140053A9DF /* ToolbarStickiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFE13162AF780140053A9DF /* ToolbarStickiesTests.swift */; };
+		FFFE13212AF780140053A9DF /* ToolbarStickiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFE13202AF780140053A9DF /* ToolbarStickiesUITests.swift */; };
+		FFFE13232AF780140053A9DF /* ToolbarStickiesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFE13222AF780140053A9DF /* ToolbarStickiesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFFE13132AF780140053A9DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFFE12F72AF780130053A9DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFFE12FE2AF780130053A9DF;
+			remoteInfo = ToolbarStickies;
+		};
+		FFFE131D2AF780140053A9DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFFE12F72AF780130053A9DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFFE12FE2AF780130053A9DF;
+			remoteInfo = ToolbarStickies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFFE12FF2AF780130053A9DF /* ToolbarStickies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToolbarStickies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFE13022AF780130053A9DF /* ToolbarStickiesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarStickiesApp.swift; sourceTree = "<group>"; };
+		FFFE13042AF780130053A9DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FFFE13062AF780130053A9DF /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		FFFE13082AF780140053A9DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFFE130B2AF780140053A9DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FFFE130D2AF780140053A9DF /* ToolbarStickies.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ToolbarStickies.entitlements; sourceTree = "<group>"; };
+		FFFE13122AF780140053A9DF /* ToolbarStickiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToolbarStickiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFE13162AF780140053A9DF /* ToolbarStickiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarStickiesTests.swift; sourceTree = "<group>"; };
+		FFFE131C2AF780140053A9DF /* ToolbarStickiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToolbarStickiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFE13202AF780140053A9DF /* ToolbarStickiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarStickiesUITests.swift; sourceTree = "<group>"; };
+		FFFE13222AF780140053A9DF /* ToolbarStickiesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarStickiesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFFE12FC2AF780130053A9DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFE130F2AF780140053A9DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFE13192AF780140053A9DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFFE12F62AF780130053A9DF = {
+			isa = PBXGroup;
+			children = (
+				FFFE13012AF780130053A9DF /* ToolbarStickies */,
+				FFFE13152AF780140053A9DF /* ToolbarStickiesTests */,
+				FFFE131F2AF780140053A9DF /* ToolbarStickiesUITests */,
+				FFFE13002AF780130053A9DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFFE13002AF780130053A9DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFFE12FF2AF780130053A9DF /* ToolbarStickies.app */,
+				FFFE13122AF780140053A9DF /* ToolbarStickiesTests.xctest */,
+				FFFE131C2AF780140053A9DF /* ToolbarStickiesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFFE13012AF780130053A9DF /* ToolbarStickies */ = {
+			isa = PBXGroup;
+			children = (
+				FFFE13022AF780130053A9DF /* ToolbarStickiesApp.swift */,
+				FFFE13042AF780130053A9DF /* ContentView.swift */,
+				FFFE13062AF780130053A9DF /* Item.swift */,
+				FFFE13082AF780140053A9DF /* Assets.xcassets */,
+				FFFE130D2AF780140053A9DF /* ToolbarStickies.entitlements */,
+				FFFE130A2AF780140053A9DF /* Preview Content */,
+			);
+			path = ToolbarStickies;
+			sourceTree = "<group>";
+		};
+		FFFE130A2AF780140053A9DF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FFFE130B2AF780140053A9DF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FFFE13152AF780140053A9DF /* ToolbarStickiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFFE13162AF780140053A9DF /* ToolbarStickiesTests.swift */,
+			);
+			path = ToolbarStickiesTests;
+			sourceTree = "<group>";
+		};
+		FFFE131F2AF780140053A9DF /* ToolbarStickiesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFFE13202AF780140053A9DF /* ToolbarStickiesUITests.swift */,
+				FFFE13222AF780140053A9DF /* ToolbarStickiesUITestsLaunchTests.swift */,
+			);
+			path = ToolbarStickiesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFFE12FE2AF780130053A9DF /* ToolbarStickies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFFE13262AF780140053A9DF /* Build configuration list for PBXNativeTarget "ToolbarStickies" */;
+			buildPhases = (
+				FFFE12FB2AF780130053A9DF /* Sources */,
+				FFFE12FC2AF780130053A9DF /* Frameworks */,
+				FFFE12FD2AF780130053A9DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToolbarStickies;
+			productName = ToolbarStickies;
+			productReference = FFFE12FF2AF780130053A9DF /* ToolbarStickies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFFE13112AF780140053A9DF /* ToolbarStickiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFFE13292AF780140053A9DF /* Build configuration list for PBXNativeTarget "ToolbarStickiesTests" */;
+			buildPhases = (
+				FFFE130E2AF780140053A9DF /* Sources */,
+				FFFE130F2AF780140053A9DF /* Frameworks */,
+				FFFE13102AF780140053A9DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFFE13142AF780140053A9DF /* PBXTargetDependency */,
+			);
+			name = ToolbarStickiesTests;
+			productName = ToolbarStickiesTests;
+			productReference = FFFE13122AF780140053A9DF /* ToolbarStickiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFFE131B2AF780140053A9DF /* ToolbarStickiesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFFE132C2AF780140053A9DF /* Build configuration list for PBXNativeTarget "ToolbarStickiesUITests" */;
+			buildPhases = (
+				FFFE13182AF780140053A9DF /* Sources */,
+				FFFE13192AF780140053A9DF /* Frameworks */,
+				FFFE131A2AF780140053A9DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFFE131E2AF780140053A9DF /* PBXTargetDependency */,
+			);
+			name = ToolbarStickiesUITests;
+			productName = ToolbarStickiesUITests;
+			productReference = FFFE131C2AF780140053A9DF /* ToolbarStickiesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFFE12F72AF780130053A9DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FFFE12FE2AF780130053A9DF = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					FFFE13112AF780140053A9DF = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = FFFE12FE2AF780130053A9DF;
+					};
+					FFFE131B2AF780140053A9DF = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = FFFE12FE2AF780130053A9DF;
+					};
+				};
+			};
+			buildConfigurationList = FFFE12FA2AF780130053A9DF /* Build configuration list for PBXProject "ToolbarStickies" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFFE12F62AF780130053A9DF;
+			productRefGroup = FFFE13002AF780130053A9DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFFE12FE2AF780130053A9DF /* ToolbarStickies */,
+				FFFE13112AF780140053A9DF /* ToolbarStickiesTests */,
+				FFFE131B2AF780140053A9DF /* ToolbarStickiesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFFE12FD2AF780130053A9DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFE130C2AF780140053A9DF /* Preview Assets.xcassets in Resources */,
+				FFFE13092AF780140053A9DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFE13102AF780140053A9DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFE131A2AF780140053A9DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFFE12FB2AF780130053A9DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFE13052AF780130053A9DF /* ContentView.swift in Sources */,
+				FFFE13072AF780130053A9DF /* Item.swift in Sources */,
+				FFFE13032AF780130053A9DF /* ToolbarStickiesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFE130E2AF780140053A9DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFE13172AF780140053A9DF /* ToolbarStickiesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFE13182AF780140053A9DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFE13212AF780140053A9DF /* ToolbarStickiesUITests.swift in Sources */,
+				FFFE13232AF780140053A9DF /* ToolbarStickiesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFFE13142AF780140053A9DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFFE12FE2AF780130053A9DF /* ToolbarStickies */;
+			targetProxy = FFFE13132AF780140053A9DF /* PBXContainerItemProxy */;
+		};
+		FFFE131E2AF780140053A9DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFFE12FE2AF780130053A9DF /* ToolbarStickies */;
+			targetProxy = FFFE131D2AF780140053A9DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FFFE13242AF780140053A9DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFFE13252AF780140053A9DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		FFFE13272AF780140053A9DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ToolbarStickies/ToolbarStickies.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ToolbarStickies/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sensei.ToolbarStickies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FFFE13282AF780140053A9DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ToolbarStickies/ToolbarStickies.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ToolbarStickies/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sensei.ToolbarStickies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FFFE132A2AF780140053A9DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sensei.ToolbarStickiesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToolbarStickies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ToolbarStickies";
+			};
+			name = Debug;
+		};
+		FFFE132B2AF780140053A9DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sensei.ToolbarStickiesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToolbarStickies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ToolbarStickies";
+			};
+			name = Release;
+		};
+		FFFE132D2AF780140053A9DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sensei.ToolbarStickiesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ToolbarStickies;
+			};
+			name = Debug;
+		};
+		FFFE132E2AF780140053A9DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sensei.ToolbarStickiesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ToolbarStickies;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFFE12FA2AF780130053A9DF /* Build configuration list for PBXProject "ToolbarStickies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFE13242AF780140053A9DF /* Debug */,
+				FFFE13252AF780140053A9DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFFE13262AF780140053A9DF /* Build configuration list for PBXNativeTarget "ToolbarStickies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFE13272AF780140053A9DF /* Debug */,
+				FFFE13282AF780140053A9DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFFE13292AF780140053A9DF /* Build configuration list for PBXNativeTarget "ToolbarStickiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFE132A2AF780140053A9DF /* Debug */,
+				FFFE132B2AF780140053A9DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFFE132C2AF780140053A9DF /* Build configuration list for PBXNativeTarget "ToolbarStickiesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFE132D2AF780140053A9DF /* Debug */,
+				FFFE132E2AF780140053A9DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFFE12F72AF780130053A9DF /* Project object */;
+}
