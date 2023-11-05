@@ -37,6 +37,7 @@
 		FFFE130D2AF780140053A9DF /* ToolbarStickies.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ToolbarStickies.entitlements; sourceTree = "<group>"; };
 		FFFE13122AF780140053A9DF /* ToolbarStickiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToolbarStickiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFFE131C2AF780140053A9DF /* ToolbarStickiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToolbarStickiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFE134C2AF7A3230053A9DF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +68,7 @@
 		FFFE12F62AF780130053A9DF = {
 			isa = PBXGroup;
 			children = (
+				FFFE134C2AF7A3230053A9DF /* README.md */,
 				FFFE13012AF780130053A9DF /* ToolbarStickies */,
 				FFFE13002AF780130053A9DF /* Products */,
 			);
@@ -395,13 +397,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ToolbarStickies/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = sensei.ToolbarStickies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,13 +425,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ToolbarStickies/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = sensei.ToolbarStickies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
